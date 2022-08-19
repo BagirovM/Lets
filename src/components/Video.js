@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './VideoStyles.css'
 
+
 import spaceVideo from '../assets/Blue.mp4'
 
 const Video = () => {
@@ -15,8 +16,8 @@ const Video = () => {
                 <h1>Galaxy. Travel.</h1>
                 <p>World's first civilian space travel.</p>
                 <div>
-                    <Link to='/training' className='btn'>Training</Link>
-                    <Link to='/contact' className='btn btn-light'>Launch</Link>
+                    <Link to='/training' className='btn'><strong>Training</strong></Link>
+                    <Link to='/contact' className='btn btn-light'><strong>Launch</strong></Link>
                 </div>
             </div>
         </div>
