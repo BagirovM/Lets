@@ -3,21 +3,20 @@ import './FormStyles.css'
 
 function Form() {
   return (
-    <div className='back'>
-    <div className='form'>
+    <div>
         <form>
-            <label>Your Name</label>
-            <input type='text'></input>
+            <label>Your Name</label>            
+            <textarea rows='1'placeholder='Murad Bagirov'/>
             <label>Email</label>
-            <input type='text'></input>
+            <textarea rows='1'placeholder='bagirovmurad224@gmail.com'/>
             <label>Subject</label>
-            <input type='text'></input>
+            <input type='subject'></input>
             <label>Details</label>
-            <textarea><text row='6' aria-placeholder='Type a short massage here' /></textarea>
-
+            <label type='detales'></label>
+            <textarea rows='6' placeholder='Type a short message here'/>
             <button className='btc'>Submit</button>
         </form>
-    </div></div>
+    </div>
   )
 }
 
