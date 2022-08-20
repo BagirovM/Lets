@@ -32,7 +32,7 @@ const Pricing = () => {
                 <h1>-VIP-</h1>
                 <span className='bar'></span>
                <p className='btc'>3 BTC</p>
-                <p>-9 Days-</p>
+                <p>- 9 Days-</p>
                 <p>-Views-</p>
                 <p>-Video-</p>
                 <p>-Photo-</p>
